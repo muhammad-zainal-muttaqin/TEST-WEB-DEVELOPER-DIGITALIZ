@@ -31,7 +31,7 @@
     </nav>
 
     <div class="container mt-4">
-        <h1 class="mb-4">Daftar Kursus</h1>
+        <h1 class="mb-4">Kursus</h1>
 
         <ul class="list-group">
             <?php foreach ($courses as $course) : ?>

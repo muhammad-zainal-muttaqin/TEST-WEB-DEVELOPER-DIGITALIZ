@@ -33,6 +33,7 @@
         <?php
         $material = $material ?? ['id' => '', 'course_id' => '', 'title' => '', 'description' => '', 'embed_link' => ''];
         ?>
+        <h1 class="mb-4">Buat Materi Baru</h1>
 
         <form action="<?= $material['id'] ? site_url('materials/update/' . $material['id']) : site_url('materials/store') ?>" method="post">
             <input type="hidden" name="course_id" value="<?= esc($material['course_id']) ?>">
@@ -68,6 +69,7 @@
 
             <button type="submit" class="btn btn-primary">Tambah</button>
         </form>
+        <a href="<?= site_url('materials') ?>" class="btn btn-secondary mt-3">Batal</a>
     </div>
 
 </body>

@@ -48,6 +48,7 @@
                 <li class="list-group-item">Tidak ada materi untuk kursus ini.</li>
             <?php endif; ?>
         </ul>
+        <a href="<?= site_url('dashboard') ?>" class="btn btn-secondary mt-3">Kembali ke Dashboard</a>
     </div>
 </body>
 

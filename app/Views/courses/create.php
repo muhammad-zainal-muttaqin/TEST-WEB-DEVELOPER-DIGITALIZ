@@ -51,6 +51,7 @@
             </div>
             <button type="submit" class="btn btn-primary">Simpan</button>
         </form>
+        <a href="<?= site_url('courses') ?>" class="btn btn-secondary mt-3">Batal</a>
     </div>
 
 </body>

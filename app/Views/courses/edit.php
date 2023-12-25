@@ -54,6 +54,7 @@
 
         <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
         <?= form_close() ?>
+        <a href="<?= site_url('courses') ?>" class="btn btn-secondary mt-3">Kembali ke Daftar Kursus</a>
     </div>
 
 </body>
