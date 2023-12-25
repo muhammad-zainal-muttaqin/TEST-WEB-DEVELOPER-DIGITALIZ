@@ -1,67 +1,25 @@
-# CodeIgniter 4 Application Starter
+# Halaman Awal
+![Screenshot (2192)](https://github.com/muhammad-zainal-muttaqin/TEST-WEB-DEVELOPER-DIGITALIZ/assets/103710606/ad654245-c4fc-4f31-a819-f4c56f6862c6)
+# Halaman ketika Materi Java di klik
+![Screenshot (2193)](https://github.com/muhammad-zainal-muttaqin/TEST-WEB-DEVELOPER-DIGITALIZ/assets/103710606/5b15ce05-47f9-4dc9-8b3f-bce23873c386)
+# Halaman ketika Materi PHP di klik
+![Screenshot (2194)](https://github.com/muhammad-zainal-muttaqin/TEST-WEB-DEVELOPER-DIGITALIZ/assets/103710606/fa2e4349-7fc7-46e0-b0fe-c8e16575de98)
+# Halaman ketika Materi JavaScript di klik
+![Screenshot (2195)](https://github.com/muhammad-zainal-muttaqin/TEST-WEB-DEVELOPER-DIGITALIZ/assets/103710606/26ea3f12-689b-4c91-8dea-22ba45e281db)
+# Halaman Daftar Kursus
+![image](https://github.com/muhammad-zainal-muttaqin/TEST-WEB-DEVELOPER-DIGITALIZ/assets/103710606/9b355a96-24d5-42dc-8499-761f8763b971)
+# Halaman Tambah Kursus
+![Screenshot (2196)](https://github.com/muhammad-zainal-muttaqin/TEST-WEB-DEVELOPER-DIGITALIZ/assets/103710606/9c107015-c8cc-45aa-9d70-e73a5f0fff3c)
+# Halaman Edit Kursus
+![Screenshot (2197)](https://github.com/muhammad-zainal-muttaqin/TEST-WEB-DEVELOPER-DIGITALIZ/assets/103710606/e54b5abe-40d6-4d9f-9f08-273cafcbd4e1)
+# Notifikasi Hapus Kursus
+![Screenshot (2198)](https://github.com/muhammad-zainal-muttaqin/TEST-WEB-DEVELOPER-DIGITALIZ/assets/103710606/cebda521-9d57-48c6-bf34-30a05ad904aa)
+# Halaman Daftar Materi
+![Screenshot (2199)](https://github.com/muhammad-zainal-muttaqin/TEST-WEB-DEVELOPER-DIGITALIZ/assets/103710606/a392567c-eb4c-4eaf-b620-66cec56f1d3a)
+# Halaman Tambah Materi
+![Screenshot (2201)](https://github.com/muhammad-zainal-muttaqin/TEST-WEB-DEVELOPER-DIGITALIZ/assets/103710606/dab3eb58-1f27-415f-9b74-26c25fd6deb3)
+# Halaman Edit Materi
+![Screenshot (2202)](https://github.com/muhammad-zainal-muttaqin/TEST-WEB-DEVELOPER-DIGITALIZ/assets/103710606/efe84904-0fd0-4bb3-8c4b-2089fec4e1bb)
+# Notifikasi Hapus Materi
+![Screenshot (2203)](https://github.com/muhammad-zainal-muttaqin/TEST-WEB-DEVELOPER-DIGITALIZ/assets/103710606/004677e7-ba70-4b5d-be4a-9c510e445c53)
 
-## What is CodeIgniter?
-
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
-
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
-
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
-
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
-
-## Installation & updates
-
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
-
-## Setup
-
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> **Warning**
-> The end of life date for PHP 7.4 was November 28, 2022. If you are
-> still using PHP 7.4, you should upgrade immediately. The end of life date
-> for PHP 8.0 will be November 26, 2023.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
